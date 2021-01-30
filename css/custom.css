@@ -1,0 +1,70 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ *****************************************************/
+
+body {
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  height: calc(100% - 5px);
+  width: calc(100% - 25px);
+}
+
+.newsfeed-title {
+  color: white;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.newsfeed-desc {
+  color: white;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.currentweather > .light,
+.fc-list-item {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.region.top.center {
+  left: 40%;
+  transform: translateX(0px);
+}
+
+.legenda {
+  text-align: left;
+  border: 7px;
+  border-style: solid;
+  border-radius: 58px;
+  border-color: white;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/James_Bruce_Waterfall_%286444796789%2
+9.jpg/330px-James_Bruce_Waterfall_%286444796789%29.jpg");
+  margin-top: 58px;
+}
+
+.mmm-iframe-wrapper {
+  height: 1000px;
+}
+
+#SPOTIFY.pausing {
+  display: none;
+}
+
+#SPOTIFY.playing {
+  display: block;
+}
+
+.currentweather {
+  transform-origin: top left;
+  transform: scale(1.4);
+}
