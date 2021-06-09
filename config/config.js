@@ -63,14 +63,10 @@ var config = {
                         //              module: 'MMM-TracCar',
                         //              position: 'bottom_left',
                         //              config: {
-                        //                      url: "http://dashboardmm.westeurope.cloudapp.azure.com:8082", // Traccar
- Server URL (free server @ http://demo5.traccar.org )
-                        //                         // Secrets were rotated, need to load this from a config file not com
-mited to GitHub to enable again
-                        //                         // Traccar service was stopped, use sudo systemctl enable traccar.ser
-vice to start again
-                        //                         // Google maps api key was rotated, use https://console.cloud.google.
-com/apis/credentials?project=dashboardmm to look up new key
+                        //                      url: "http://dashboardmm.westeurope.cloudapp.azure.com:8082", // Traccar Server URL (free server @ http://demo5.traccar.org )
+                        //                         // Secrets were rotated, need to load this from a config file not commited to GitHub to enable again
+                        //                         // Traccar service was stopped, use sudo systemctl enable traccar.service to start again
+                        //                         // Google maps api key was rotated, use https://console.cloud.google.com/apis/credentials?project=dashboardmm to look up new key
                         //                         position: "center",
                         //                      map_width: "450", // width of the map element
                         //                      map_height: "300", // height of the map element
@@ -112,8 +108,12 @@ com/apis/credentials?project=dashboardmm to look up new key
                                                 url: "https://www.reddit.com/r/Showerthoughts.rss"
                                         },
                                         {
-                                                title: "TIL",
-                                                url: "https://www.reddit.com/r/todayilearned.rss"
+                                                title: "NtO",
+                                                url: "https://www.reddit.com/r/nottheonion.rss"
+                                        },
+                                        {
+                                                title: "Quotes",
+                                                url: "https://www.reddit.com/r/inspirationalquotes.rss"
                                         },
                                 ],
                                 updateInterval: 20000,
